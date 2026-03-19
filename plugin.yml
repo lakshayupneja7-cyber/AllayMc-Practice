@@ -1,0 +1,21 @@
+name: AllayMc-Practice
+version: 1.0
+main: com.allaymc.practice.AllayMcPractice
+api-version: '1.21'
+author: AllayMc
+description: Practice FFA Plugin For AllayMc
+
+commands:
+  duel:
+    description: Duel a player
+    usage: /duel <player> <kit>
+  accept:
+    description: Accept a duel request
+    usage: /accept <player>
+  spawn:
+    description: Return to spawn
+    usage: /spawn
+
+permissions:
+  allaymc.practice.use:
+    default: true
